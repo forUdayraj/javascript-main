@@ -1,0 +1,22 @@
+// first they created callbacks but its hard so they created promises then it is again hard to understand they created a async wait 
+
+// sync matlab wk ke baad dusra hogaa, jab tak ek command complete naa ho, dursa shuru nahi hoga
+
+// async matlab saare  kaam saath shuru kardo, jiska answer pahel aa jaye usko answer de dena
+// ex:- setTimeout, setInterval, promises, fetch, axois, XMLHttpRequest if we are using all these means it is async code 
+
+// setTimeout(callback,2000)
+// setTimeout(function(){}.2000)
+// callback is function  
+
+// syncrouns code goes to main stack and asynchrouns code goes to side stack first synchrounous code gives output and then by using event loop it carry this function from side stack to main stack to executes
+
+// callbacks- fetch sxois promises settimeout  settimeinterval when they complete there task their answer is in 
+// answer chalane keliye-then catch callbacks async await
+
+
+// promise 
+// its a just like a promise have to categories resolve its then and if rejected its catch
+// concurrency means javascript runs both code sync and async code simultaneously it's called concurrent
+// parallelism focus karta haine more than different processors and unke cores par kaam ko chalanne par
+// throttling kisi code ko control karna number of executions
